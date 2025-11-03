@@ -36,4 +36,4 @@ plotly>=6,<7
 bqplot
 
 jupytergis-lite
-
+litegitpuller
