@@ -37,3 +37,4 @@ bqplot
 
 openeo
 jupytergis
+git+https://github.com/ESA-APEx/apex_algorithms.git
