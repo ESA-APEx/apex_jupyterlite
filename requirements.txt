@@ -35,6 +35,5 @@ ipyleaflet
 plotly>=6,<7
 bqplot
 
-openeo
 jupytergis-lite
-git+https://github.com/ESA-APEx/apex_algorithms.git
+
