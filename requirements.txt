@@ -37,3 +37,5 @@ bqplot
 
 jupytergis-lite
 litegitpuller
+
+jupyterlab-open-url-parameter
