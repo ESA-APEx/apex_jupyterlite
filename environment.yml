@@ -1,0 +1,16 @@
+name: apex-jupyter-lite
+channels:
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - ipycanvas
+  - numpy
+  - matplotlib
+  - openeo
+  - jupytergis-lite
+  - jupytergis-lab
+  - jupytergis-core
+  - pip:
+      - litegitpuller
+      - jupyterlab-open-url-parameter
