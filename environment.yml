@@ -6,8 +6,13 @@ dependencies:
   - xeus-python
   - ipycanvas
   - numpy
+  - pandas
   - matplotlib
+  - geopandas
+  - xarray
+  - netcdf4
   - openeo
+  - shapely
   - jupytergis-lite
   - jupytergis-lab
   - jupytergis-core
