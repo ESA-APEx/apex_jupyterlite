@@ -1,0 +1,72 @@
+/* stylelint-disable */
+@import './variables.css';
+
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+#jp-MainLogo {
+  background-image: url('./images/apex_logo.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: var(--cdse-primary-color);
+  padding: 0 1.5rem;
+}
+
+#jp-MainLogo > svg {
+  visibility: hidden;
+}
+
+#jp-top-panel,
+#jp-menu-panel .lm-MenuBar {
+  background: var(--apex-primary-color);
+  color: white;
+}
+
+#jp-top-panel jp-button .jp-icon3[fill] {
+  fill: white;
+}
+
+#jp-top-panel jp-button:hover .jp-icon3[fill] {
+  fill: var(--apex-primary-color);
+}
+
+.lm-MenuBar-item {
+  border-bottom: none;
+}
+
+.lm-MenuBar-item:hover {
+  color: white;
+  background-color: transparent;
+  border-bottom: 2px solid var(--apex-secondary-color);
+  height: var(--jp-private-menubar-height);
+}
+
+.lm-MenuBar-item.lm-mod-active {
+  background: transparent;
+}
+
+.lm-MenuBar.lm-mod-active .lm-MenuBar-item.lm-mod-active {
+  color: black;
+}
+
+.jp-LauncherCard-label p {
+  line-height: unset;
+  height: unset;
+}
+
+#jp-UserMenu {
+  background-color: var(--apex-primary-color);
+  color: white;
+}
+
+#jp-UserMenu .lm-MenuBar-itemIcon span {
+  color: white !important;
+}

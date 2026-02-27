@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.5.1
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: bram.janssen@vito.be
+author_name: Bram Janssen
+has_ai_rules: false
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: apex-jupyterlite-theme
+project_short_description: A JupyterLab extension.
+python_name: apex_jupyterlite_theme
+repository: https://github.com/ESA-APEx/apex_jupyterlite
+test: false
+

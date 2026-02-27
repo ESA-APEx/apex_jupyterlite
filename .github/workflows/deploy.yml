@@ -27,6 +27,12 @@ jobs:
           environment-file: .github/build-environment.yml
           cache-environment: true
 
+      - name: Install extension - APEx Theme
+        shell: bash -l {0}
+        run: |
+          cd extensions/theme
+          micromamba run -n build-env pip install -e .[dev]
+
       - name: Build the JupyterLite site
         shell: bash -l {0}
         run: |
