@@ -16,6 +16,9 @@ dependencies:
   - jupytergis-lite
   - jupytergis-lab
   - jupytergis-core
+  - pystac-client
+  - contextily
+  - rioxarray
   - pip:
       - litegitpuller
       - jupyterlab-open-url-parameter
