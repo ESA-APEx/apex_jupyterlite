@@ -11,6 +11,8 @@ dependencies:
   - geopandas
   - xarray
   - netcdf4
+  - h5netcdf
+  - folium
   - openeo
   - shapely
   - jupytergis-lite
@@ -22,3 +24,4 @@ dependencies:
   - pip:
       - litegitpuller
       - jupyterlab-open-url-parameter
+      - git+https://github.com/ESA-APEx/apex_algorithms.git
